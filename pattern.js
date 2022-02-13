@@ -11,6 +11,7 @@ async function getPatternString() {
 
   var arr = []
   
+  
   for await(const line of rl) {
     var filter = line.split(" ")
     filter = filter.slice(1,filter.length)
